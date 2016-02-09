@@ -1,0 +1,17 @@
+html
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	width: 1000px;
+	height: 1000px;
+	border: 5px solid blue;
+}
+ul
+{
+	list-style: none;
+}

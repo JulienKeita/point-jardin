@@ -7,7 +7,7 @@
 	margin: 0 auto;
 	/*border: 8px solid blue;*/
 }
-#slideshow:before,#slideshow:after
+#slideshow:before, #slideshow:after
 {
 	position: absolute;
 	bottom:0px;

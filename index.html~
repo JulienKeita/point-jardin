@@ -8,13 +8,7 @@
 	</head>
 	<body>
 		<header>
-			<div id="slideshow">
-				<ul id="sContent">
-		    		<li><img src="image1.jpg" alt="Image bleue" /></li>
-		    		<li><img src="image2.jpg" alt="Image verte" /></li>
-		    		<li><img src="image3.jpg" alt="Image brune" /></li>
-				</ul>
-			</div>
+			
 		</header>
 		
 		<section>

@@ -9,7 +9,7 @@ body
 	padding: 0;
 	width: 1000px;
 	height: 1000px;
-	border: 5px solid blue;
+	border: 2px dotted blue;
 }
 ul
 {

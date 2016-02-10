@@ -207,7 +207,7 @@ footer div h1
 	font-size: 30px;
 }
 
-footer div h1 
+footer div p 
 {
 	color: black;
 }

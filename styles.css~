@@ -172,13 +172,13 @@ body p
 }
 #nouveautes
 {
-	width: 65%;
+	width: 50%;
 	height: 500px;
 	background-color: blue;
 }
 #actualites
 {
-	width: 20%;
+	width: 30%;
 	height: 500px;
 	background-color: orange;
 }

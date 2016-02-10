@@ -40,19 +40,19 @@
 		<p>Paul et Laurentine vous accueillent dans votre nouveau point de vente de matériaux pour l’aménagement du jardin.</p>
 		<section id="valeurs">
 			<div>
-				<img src="img/icone1.jpg" alt="icone 1" />
+				<img src="img/icone1.png" alt="icone 1" />
 				<p>Achetez la quantité dont vous avez besoin</p>
 			</div>
 			<div>
-				<img src="img/icone2.jpg" alt="icone 2" />
+				<img src="img/icone2.png" alt="icone 2" />
 				<p>En panne d’inspiration ? Nous vous conseillons et dessinons votre jardin</p>
 			</div>
 			<div>
-				<img src="img/icone3.jpg" alt="icone 3" />
+				<img src="img/icone3.png" alt="icone 3" />
 				<p>Embellisez votre jardin avec notre gamme de paillage variés</p>
 			</div>
 			<div>
-				<img src="img/icone4.jpg" alt="icone 4" />
+				<img src="img/icone4.png" alt="icone 4" />
 				<p>Pas de véhicule adapté? Point jardin vous livre chez vous, petite ou grande quantité</p>
 			</div>
 		</section>
@@ -66,6 +66,7 @@
 			</section>
 			<aside id="actualites">
 			</aside>
+		</div>
 		<footer >
 			<div> 
 				<h1>Horaires</h1>

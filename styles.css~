@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html
 {
 	margin: 0;
@@ -17,6 +18,8 @@ header
 	text-align: center;
 }
 /*MISE EN PAGE DU CARROUSEL*/
+=======
+>>>>>>> bf763994f1d276fc21f1400e3fb0fc6e835e0a64
 #slideshow
 {
 	position: relative;
@@ -36,7 +39,10 @@ header
 	content: " ";
 	/*border: 1px solid red;*/
 }
+<<<<<<< HEAD
 /*Masquer ce qui depasse de la vue voulue*/
+=======
+>>>>>>> bf763994f1d276fc21f1400e3fb0fc6e835e0a64
 #slideshow .container
 {
 	position:relative;
@@ -46,7 +52,10 @@ header
 	text-align: center;
 	/*border: 8px solid red;*/
 }
+<<<<<<< HEAD
 /*Voile transparent*/
+=======
+>>>>>>> bf763994f1d276fc21f1400e3fb0fc6e835e0a64
 #fondlogo
 {
 	position: absolute;
@@ -56,13 +65,21 @@ header
 	z-index: 1;
 	height: 100%;
 	width: 100%;
+<<<<<<< HEAD
 	background-color: rgba(0,0,0,0.2);
+=======
+	background-color: 	rgba(0,0,0,0.3);
+>>>>>>> bf763994f1d276fc21f1400e3fb0fc6e835e0a64
 }
 #logo 
 {
 	position: relative;
 	z-index: 2;
+<<<<<<< HEAD
 	margin-top:130px;
+=======
+	margin-top:177.5px;
+>>>>>>> bf763994f1d276fc21f1400e3fb0fc6e835e0a64
 }
 /*le conteneur des slides en largeur il fait 100% x le nombre de slides*/
 #slideshow .slider
@@ -99,6 +116,7 @@ header
 #slideshow .slider
 {
 	/* ... avec la propriété animation */
+<<<<<<< HEAD
 	animation: slider 25s infinite;
 }
 
@@ -309,11 +327,13 @@ footer div h1
 	{
 		text-align: center;
 	}
-	
-	 
 }
 
 
 
+=======
+	animation: slider 16s infinite;
+}
+>>>>>>> bf763994f1d276fc21f1400e3fb0fc6e835e0a64
 
 

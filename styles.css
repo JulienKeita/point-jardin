@@ -172,14 +172,34 @@ body p
 #container2
 {
 	display: flex;
-	justify-content: space-around;
-	border: 3px solid blue;
+	/*border: 3px solid blue;*/
 }
 #nouveautes
 {
-	width: 65%;
-	height: 500px;
-	background-color: blue;
+	/*border: 3px solid green;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 55%;
+	position: left;
+}
+#nouveautes div
+{
+	/*border: 1px solid yellow;*/
+	width: 45%;
+}
+#nouveautes h1
+{
+	width: 100%;
+	font-size: 30px;
+}
+
+#nouveautes div img
+{
+	width: 100%;
+	height: auto;
+	display: table;
+	margin: 14px;
 }
 #actualites
 {
@@ -195,7 +215,7 @@ footer
   display: flex;
   justify-content: space-around;
   font-family: helvetica;
-  background-color: #44E64D;
+  background-color: rgb(120,185,65);
  }
 footer div
 {

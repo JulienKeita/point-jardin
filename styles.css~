@@ -109,7 +109,7 @@ header nav
 	height: 50px;
 	background-color: blue;
 }
-h1
+html body h1
 {
 	padding-left: 10%;
 	font-family: 'impact',arial, sans-serif;
@@ -166,20 +166,42 @@ body p
 {
 	width: 60%;
 	margin: 20px;
-	box-shadow: 7px 7px 10px black;
+	box-shadow: 0px 0px 20px black;
 	/*border: 5px solid black;*/
 }
 #container2
 {
 	display: flex;
-	justify-content: space-around;
-	border: 3px solid blue;
+	/*border: 3px solid blue;*/
 }
 #nouveautes
 {
-	width: 65%;
-	height: 500px;
-	background-color: blue;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 55%;
+	position: left;
+	/*border: 3px solid green;*/
+}
+#nouveautes div
+{
+	width: 45%;
+	/*border: 1px solid yellow;*/
+}
+#nouveautes h1
+{
+	width: 100%;
+	font-size: 30px;
+	text-align: center;
+	/*border: 1px solid yellow;*/
+}
+
+#nouveautes div img
+{
+	width: 100%;
+	height: auto;
+	display: table;
+	margin: 14px;
 }
 #actualites
 {
@@ -194,8 +216,8 @@ footer
   bottom: 0;
   display: flex;
   justify-content: space-around;
-  font-family: helvetica;
-  background-color: #44E64D;
+  font-family: helvetica, sans-serif;
+  background-color: rgb(120,185,65);
  }
 footer div
 {
@@ -210,14 +232,85 @@ footer div
 footer div h1
 {
 	font-size: 30px;
-}
-
-footer div h1 
-{
 	color: black;
 }
 
+/* MODIFICATION SI PETITE TAILLE ECRAN */
 
+@media (max-width: 500px)
+{
+	html body h1
+	{
+		font-size: 150%;
+		text-align: center;
+		margin: 50px 0;
+	}
+	#valeurs div
+	{
+		width: 100%;
+		/*border: 1px solid green;*/
+	}
+	#valeurs div img
+	{
+		width: 25%;
+		/*border: 3px solid red;*/
+	}
+	#valeurs div p
+	{
+		margin: 0;
+		/*border: 3px solid blue;*/
+	}
+	#video
+	{
+		margin: 200px 0 10px 0;
+		display: block;
+		width: 100%;
+		/*background-color: green;*/
+	}
+	#video video
+	{
+		display: block;
+		width: 100%;
+		margin: 0px;
+		box-shadow: 0 0 20px black;
+		/*border: 5px solid black;*/
+	}
+	#container2
+	{
+		flex-wrap: wrap;
+		/*border: 3px solid blue;*/
+	}
+	#actualites
+	{
+		width: 100%;
+	}
+	#nouveautes
+	{
+		justify-content: space-around;
+		width: 100%;
+		/*display: none;*/
+	}
+	#nouveautes div img
+	{
+		margin: 5px 0;
+	}
+	footer
+	{
+		flex-wrap: wrap;		
+	}
+	footer div
+	{
+		margin: 0;
+		width: 47%;
+		/*border: 3px solid blue;*/
+	}
+	footer div h1, footer div p
+	{
+		text-align: center;
+	}
+	
+	 
+}
 
 
 

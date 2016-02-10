@@ -80,5 +80,33 @@
 	/* ... avec la propriété animation */
 	animation: slider 16s infinite;
 }
+footer
+{
+	/*border: 1px solid red;*/
+  height: auto;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  font-family: helvetica;
+  background-color: #44E64D;
+ } 
 
+footer div
+{
+	height: auto;
+	width: 30%;
+	/*border: 1px solid red;*/
+	text-align: center;
+	padding: 3px;
+	margin: 15px;
+	/*vertical-align: middle;*/
+}
+footer div h1
+{
+	font-size: 30px;
+}
 
+footer div p 
+{
+	/*vertical-align: middle;*/
+}

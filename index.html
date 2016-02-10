@@ -7,6 +7,7 @@
 		<title>Point jardin | Matériaux pour le jardin | Saint Remy sur Avre</title>
 	</head>
 	<body>
+		<div id="fb-root"></div>
 		<header>
 			<section id="slideshow">
 				<div class="container">
@@ -60,10 +61,9 @@
 		<section id="video">
 			<video src="https://youtu.be/szGkJgvt2-0" poster="img/img_video.png"controls></video>
 		</section>
-
 			<div id="container2">
 				<section id="nouveautes">
-					<h1> Nouveautés </h1>
+					<h1>Nouveautés</h1>
 					<div>
 						<img src="img/nouveauté1.jpg">
 					</div>
@@ -83,9 +83,9 @@
 						<img src="img/nouveauté6.jpg">
 					</div>
 				</section>
-
-				<aside id="actualites">
-				</aside>
+					<aside id="actualites">
+						<div class="fb-page" data-href="https://www.facebook.com/PointJardin/" data-tabs="timeline" data-width="auto" data-height="auto" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/PointJardin/"><a href="https://www.facebook.com/PointJardin/">Point Jardin</a></blockquote></div></div>
+					</aside>
 			</div>
 
 		<footer >
@@ -113,5 +113,14 @@
 			</div>
 		</footer>
 	</body>
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
 </html>
 

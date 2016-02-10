@@ -205,9 +205,10 @@ body p
 }
 #actualites
 {
-	width: 20%;
+	width: 45%;
 	height: 500px;
-	background-color: orange;
+	margin-top: 100px;
+	/*background-color: orange;*/
 }
 footer
 {

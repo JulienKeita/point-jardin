@@ -84,7 +84,7 @@
 					</div>
 				</section>
 					<aside id="actualites">
-						<div class="fb-page" data-href="https://www.facebook.com/PointJardin/" data-tabs="timeline" data-width="auto" data-height="auto" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/PointJardin/"><a href="https://www.facebook.com/PointJardin/">Point Jardin</a></blockquote></div></div>
+						<div class="fb-page" data-href="https://www.facebook.com/PointJardin/" data-tabs="timeline" data-height="850px" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/PointJardin/"><a href="https://www.facebook.com/PointJardin/">Point Jardin</a></blockquote></div></div>
 					</aside>
 			</div>
 
@@ -105,7 +105,7 @@
 					02 37 63 50 22</br> 
 					info@point-jardin.fr</p>
 			</div>
-			<div> 
+			<div  id="legal"> 
 				<h1>Mentions légales</h1>
 				<p>design & code ✌️ Alex & Julien</br></br>
 				© 2015 Copyright Point Jardin</p>

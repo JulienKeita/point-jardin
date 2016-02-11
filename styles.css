@@ -149,7 +149,7 @@ body p
 {
 	display: inline-block;
 	width: 70%;
-	margin-left: 5%;
+	margin-left: -15px;
 	text-align: left;
 	font-family: 'impact', arial, sans-serif;
 	font-size: 130%;
@@ -181,7 +181,7 @@ body p
 	justify-content: space-around;
 	width: 55%;
 	position: left;
-	/*border: 3px solid green;*/
+	border: 3px solid green;
 }
 #nouveautes div
 {
@@ -193,7 +193,7 @@ body p
 	width: 100%;
 	font-size: 30px;
 	text-align: center;
-	/*border: 1px solid yellow;*/
+	border: 1px solid yellow;
 }
 
 #nouveautes div img
@@ -206,9 +206,8 @@ body p
 #actualites
 {
 	width: 45%;
-	height: 500px;
-	margin-top: 100px;
-	/*background-color: orange;*/
+	/*height: 900px;*/
+	border: 1px solid yellow;
 }
 footer
 {
@@ -238,7 +237,7 @@ footer div h1
 
 /* MODIFICATION SI PETITE TAILLE ECRAN */
 
-@media (max-width: 500px)
+@media (max-width: 980px)
 {
 	html body h1
 	{
@@ -303,11 +302,16 @@ footer div h1
 	{
 		margin: 0;
 		width: 47%;
-		/*border: 3px solid blue;*/
+		/*border: 1px solid red;*/
 	}
 	footer div h1, footer div p
 	{
 		text-align: center;
+	}
+	#legal
+	{
+		width: 100%;
+		/*border: 2px solid blue;*/
 	}
 }
 

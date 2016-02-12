@@ -124,7 +124,7 @@ li
 	display: inline-block;
 	margin: 0 1%;
 	height: 100%;
-	font-family: helvetica, arial, sans-serif;
+	font-family: Montserrat, arial, sans-serif;
 	color: white;
 	line-height: 50px;
 	padding: 0px 8px;
@@ -144,14 +144,14 @@ a
 html body h1
 {
 	padding-left: 10%;
-	font-family: 'impact',arial, sans-serif;
+	font-family: 'Montserrat',arial, sans-serif;
 	color: green;
 	text-align: left;
 }
 body p
 {
 	padding-left: 10%;
-	font-family: 'impact',arial, sans-serif;
+	font-family: 'Montserrat',arial, sans-serif;
 	text-align: left;
 }
 #valeurs
@@ -183,8 +183,9 @@ body p
 	width: 70%;
 	margin-left: -15px;
 	text-align: left;
-	font-family: 'impact', arial, sans-serif;
-	font-size: 130%;
+	font-family: 'Montserrat', arial, sans-serif;
+	font-size: 110%;
+	font-weight: normal;
 	/*border: 3px solid blue;*/
 }
 #video
@@ -211,9 +212,9 @@ body p
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	width: 55%;
+	width: 65%;
 	position: left;
-	border: 3px solid green;
+	/*border: 3px solid green;*/
 }
 #nouveautes div
 {
@@ -224,8 +225,9 @@ body p
 {
 	width: 100%;
 	font-size: 30px;
-	text-align: center;
-	border: 1px solid yellow;
+	text-align: right;
+	margin-right: 100px;
+	/*border: 1px solid yellow;*/
 }
 
 #nouveautes div img
@@ -237,10 +239,18 @@ body p
 }
 #actualites
 {
-	width: 45%;
-	/*height: 900px;*/
-	border: 1px solid yellow;
+	width: 30%;
+	height: 900px;
+	margin-top: 155px;
+	margin-left: 15px;
+	/*border: 1px solid yellow;*/
 }
+/*#actualites div .fb-page
+{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+}*/
 footer
 {
 	/*border: 1px solid red;*/
@@ -248,7 +258,7 @@ footer
   bottom: 0;
   display: flex;
   justify-content: space-around;
-  font-family: helvetica, sans-serif;
+  font-family: Montserrat, sans-serif;
   background-color: rgb(120,185,65);
  }
 footer div

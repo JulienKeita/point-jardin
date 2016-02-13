@@ -225,8 +225,12 @@ body p
 {
 	width: 100%;
 	font-size: 30px;
+<<<<<<< HEAD
 	text-align: right;
 	margin-right: 100px;
+=======
+	text-align: center;
+>>>>>>> f03377cf0ea78aa5af5ae757f00ffb8aa333a718
 	/*border: 1px solid yellow;*/
 }
 
@@ -239,10 +243,15 @@ body p
 }
 #actualites
 {
+<<<<<<< HEAD
 	width: 30%;
 	height: 900px;
 	margin-top: 155px;
 	margin-left: 15px;
+=======
+	width: 45%;
+	/*height: 900px;*/
+>>>>>>> f03377cf0ea78aa5af5ae757f00ffb8aa333a718
 	/*border: 1px solid yellow;*/
 }
 /*#actualites div .fb-page
@@ -371,8 +380,5 @@ footer div h1
 		/*border: 2px solid blue;*/
 	}
 }
-
-
-
 
 
